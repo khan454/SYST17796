@@ -22,6 +22,20 @@ package syst17796.week2;
 public class StudentTemplateClass {
 
     /**
+     * @return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
      * @return the name
      */
     public String getName() {
@@ -35,4 +49,5 @@ public class StudentTemplateClass {
         this.name = name;
     }
     private String name;
+    private int id;
 }
